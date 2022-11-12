@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://w.soundcloud.com/player/api.js"></script>
+	<script src="https://randojs.com/2.0.0.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="SMB3MusicB.webp" />
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Fragment+Mono&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slap Box</title>
+  </head>
+  <body>
+    
+    <canvas id="bg">
+      
+    </canvas>
+    
+    
+    <div id="controls">
+      
+      <h1 id="pageTitle">SlapBox</h1>
+	  <div ontouchstart="" id="portrait-mode">
+		  <div class="songInfo">
+			  <div id="songTitle">Song Title</div>
+			  <div id="artistName">Artist Name?</div>
+		  </div>
+		<div class="playback">
+			<button id="prev"><b>Prev</b></button>
+        	<button id="play"><b>Play/Pause</b></button>
+			<button type="button" id="get-slap">
+				<b>Get slap</b>
+			</button>
+		</div>
+      	
+		</div>
+      
+    </div>
+    
+    
+    <!-- <iframe class="sc-widget" width="100%" height="1850" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1443821125&color=%230f0d0e&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe> -->
+	
+	
+	<iframe class="sc-test" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1522952146&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+	
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+  <section id="loading-screen">
+
+	<!-- div id="loader"></div -->
+
+	<!-- <div class="loader-container"> -->
+		<div class="loader-card">
+			<!-- <h1 style="color:white; font-size:35pt">NOW</h1> -->
+			<div class="flip-tile">
+				<!-- <img src="music.png" alt="" /> -->
+				
+			</div>
+			<h1 id="loading-text" style="color:white;"></h1>
+		</div>
+		
+	<!-- </div> -->
+	
+	
+	</section>
+	
+	
+	
+	
+  <!-- <div id="loading">
+  	<img id="loading-image" src="Spinning.GIF" alt="Loading..." />
+  </div> -->
+</html>
